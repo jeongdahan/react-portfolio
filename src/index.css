@@ -1,0 +1,104 @@
+body{
+    background-color: #ECEFF1;
+
+    font-family: 'Noto Sans Korean', sans-serif !important;
+    font-size: 16px;
+}
+
+
+
+p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+table,
+textarea{
+	width: 100%;
+}
+
+textarea{
+    border-color: #aab5bc;
+    height: 150px;
+}
+
+/*****#####===== 폼 컨트롤 =====#####*****/
+input,
+textarea,
+select,
+button,
+a{
+	outline: 0;
+}
+
+/*****#####===== A 링크 =====#####*****/
+a{
+	color: inherit !important;
+	text-decoration: none !important;
+	font-family: inherit;
+}
+
+a:hover,
+a:active,
+a:after,
+a:visited,
+a:focus,
+button:hover,
+button:active,
+button:after,
+button:visited,
+button:focus{
+	color: inherit;
+	text-decoration: none;
+	outline: none;
+}
+
+/*****#####===== 엘립시스 =====#####*****/
+[class*="ellipsis"] {
+    position: relative;
+	display: -webkit-box;
+	width: 100%;
+	overflow: hidden;
+	box-sizing: content-box;
+
+	text-overflow: ellipsis;
+	word-wrap:break-word;
+	line-height: 1.5em;
+
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+
+.ellipsis_1{
+	height: 1.5em;
+    -webkit-line-clamp: 1;
+}
+
+.ellipsis_2{
+	height: 3em;
+    -webkit-line-clamp: 2;
+}
+
+.ellipsis_3{
+	height: 4.5em;
+    -webkit-line-clamp: 3;
+}
+
+.ellipsis_4{
+	height: 6em;
+    -webkit-line-clamp: 4;
+}
+
+.ellipsis_5{
+	height: 7.5em;
+    -webkit-line-clamp: 5;
+}
+
+.ellipsis_6{
+	height: 9em;
+    -webkit-line-clamp: 6;
+}
+
+.pointer{
+    cursor: pointer;
+}

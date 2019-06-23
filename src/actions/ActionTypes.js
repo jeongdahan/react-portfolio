@@ -1,0 +1,45 @@
+/* LOGIN */
+
+export const LOGIN = "LOGIN";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAIL = "LOGIN_FAIL";
+
+/* REGISTER */
+
+export const REGISTER = "REGISTER";
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const REGISTER_FAIL = "REGISTER_FAIL";
+
+/* GET_INFO_FAIL */
+
+export const GET_INFO = "GET_INFO";
+export const GET_INFO_SUCCESS = "GET_INFO_SUCCESS";
+export const GET_INFO_FAIL = "GET_INFO_FAIL";
+
+/* LOGOUT */
+
+export const LOGOUT = "LOGOUT";
+
+/* BOARD POST */
+
+export const BOARD_POST = "BOARD_POST";
+export const BOARD_POST_SUCCESS = "BOARD_POST_SUCCESS";
+export const BOARD_POST_FAIL = "BOARD_POST_FAIL";
+
+/* BOARD LIST */
+
+export const BOARD_LIST = "BOARD_LIST";
+export const BOARD_LIST_SUCCESS = "BOARD_LIST_SUCCESS";
+export const BOARD_LIST_FAIL = "BOARD_LIST_FAIL";
+
+// BOARD EDIT
+
+export const BOARD_EDIT = "BOARD_EDIT";
+export const BOARD_EDIT_SUCCESS = "BOARD_EDIT_SUCCESS";
+export const BOARD_EDIT_FAIL = "BOARD_EDIT_FAIL";
+
+// BOARD REMOVE
+
+export const BOARD_REMOVE = "BOARD_REMOVE";
+export const BOARD_REMOVE_SUCCESS = "BOARD_REMOVE_SUCCESS";
+export const BOARD_REMOVE_FAIL = "BOARD_REMOVE_FAIL";

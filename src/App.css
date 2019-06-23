@@ -1,0 +1,156 @@
+/* 공통 */
+.bc-1{
+    border-left-color: #e13838;
+}
+
+.color-1{
+    color: #aab5bc;
+}
+
+.color-2{
+    color: #e13838;
+}
+
+.btn{
+    background-color: #e13838;
+    border-color: #e13838;
+
+    color: #fff;
+}
+
+.btn:active,
+.btn:hover{
+    background-color: #fff;
+    border-color: #e13838;
+
+    color: #e13838;
+}
+
+.icon{
+    font-size: 1.5rem;
+}
+
+h1,.h1,
+h2,.h2,
+h3,.h3,
+h4,.h4,
+h5,.h5,
+h6,.h6{
+    margin: 0;
+}
+
+/* 텍스트 */
+h1,.h1{
+    font-weight: 600;
+    font-size: 3rem;
+}
+/* 페이지 타이틀 */
+h2,.h2{
+    font-weight: 600;
+    font-size: 1rem;
+}
+/* 섹션 타이틀 */
+h3,.h3{
+    font-weight: 600;
+}
+/* 서브 타이틀 */
+h4,.h4{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+/* 아이템 타이틀 */
+h5,.h5{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+/* 콘텐츠 */
+h6,.h6{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+#main-gnb{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    background-color: #3a3a3a;
+    border-bottom: 2px solid #e13838;
+    color: #fff;
+}
+
+.board .card,
+.write .card{
+    border-left-width: 5px;
+    border-left-style: solid;
+}
+
+.board .card-title{
+    font-weight: 600;
+}
+
+/* 회원가입 및 로그인 */
+.auth .input-group-addon{
+    padding: 6px 12px;
+    font-size: 24px;
+
+    border: none;
+
+    color: #575757;
+}
+
+.auth .form-control{
+    height: 49px;
+
+    border: none;
+}
+
+.auth .form-control:focus{
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.auth .btn{
+    width: 100%;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* 알림 창 */
+#react-alert{
+    display: none;
+    position: fixed;
+
+    top: 10%;
+    left: 50%;
+
+    width: 50%;
+
+    background-color: #fef2f2;
+    border-radius: 1rem;
+
+    z-index: 1051;
+
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+#react-alert .icon{
+    font-size: 3rem;
+    color: #e13838;
+}
+
+#react-alert button{
+    position: absolute;
+
+    top: 1rem; right: 1rem;
+
+    border: 0;
+    background-color: transparent;
+}
+
+#react-alert button .icon{
+    font-size: 1.5rem;
+}
